@@ -1,0 +1,39 @@
+{
+  "name": "card-games-ending",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "rensadre <rensadre@gmail.com>",
+  "description": "a simple card games engine",
+  "contributors": [ 
+    {
+      "name": "Ren Sadre",
+      "email": "rensadre@gmail.com"
+    } 
+  ],
+  "scripts": {
+    "predeploy": "echo This will be run before deploying the app",
+    "postdeploy": "echo This will be run after deploying the app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rensadre/cg.git"
+  },
+  "keywords": [
+    "card",
+    "games",
+    "engine"
+  ],
+  "dependencies" : {
+    "express": "latest",
+    "jade": "latest",
+    "socket.io": "latest",
+    "underscore": "latest",
+    "mongoose": "latest"
+  },
+  "analyze": false,  
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.6",
+    "npm": "1.1.x"
+  }
+}

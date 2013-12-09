@@ -1,0 +1,15 @@
+{
+  "log_level": 65535,
+  "restart_delay": 1000,
+  "term_timeout": 3000,
+  "status": {
+    "write_interval": 5000,
+    "pathname": "app-status.json"
+  },
+  "apps": [
+    {
+      "pathname": "cg-engine.js",
+      "disabled": false
+    }
+  ]
+}
